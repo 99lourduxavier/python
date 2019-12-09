@@ -1,0 +1,9 @@
+s=list(map(int,input().split()))
+ll=len(s)/2
+l=int(ll)
+l1=s[:l]
+l2=s[l:]
+l1,l2.sort()
+l3=l1+l2
+l3.sort()
+print(*l3)
